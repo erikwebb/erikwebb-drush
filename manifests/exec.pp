@@ -46,7 +46,7 @@ define drush::exec(
 
   $force_option = $force ? {
     true  => '--yes',
-    false => '--no',
+    false => '',
   }
 
   if $uri != nil {
